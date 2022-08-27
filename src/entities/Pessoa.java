@@ -4,20 +4,20 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Pessoa {
-	private Integer idpessoa;
+	private Integer Idpessoa;
 	private String nome;
 	private String cpf;
 	private String email;
 
 	public Integer getIdpessoa() {
-		return idpessoa;
+		return Idpessoa;
 	}
 
-	public void setIdpessoa(Integer idpessoa) {
-		if (idpessoa <= 0)
+	public void setIdpessoa(Integer Idpessoa) {
+		if (Idpessoa <= 0)
 			throw new IllegalArgumentException("O id deve ser maior do que zero.");
 
-		this.idpessoa = idpessoa;
+		this.Idpessoa = Idpessoa;
 
 	}
 
